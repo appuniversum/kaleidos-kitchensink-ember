@@ -14,14 +14,16 @@
 </style>
 <div style="padding: 2rem;">
   <!-- Code problem: the vl components from webuniversum have default spacing that I do not want -->
-
   <div class="vl-typography" style="margin: 0 0 2.5rem;">
+    <!-- Don't like to add inline styles but just for the purposes of this demo -->
     <h1 style="margin: 0 0 1.2rem;">Kitchen sink</h1>
     <p>Goal of this page: make it clear what it looks like if you use basic HTML elements with some classes for styling using the current Kaleidos application stylesheet. To be synced with LBLOD.</p>
   </div>
 
   <div class="vlc-kitchensink-sample">
     <div class="vl-typography">
+      <!-- Problem: need wrapper to enable typography, no separate classes to enable typography for 1 element -->
+      <!-- Problem: weird default spacings between the headings -->
       <h1>Hello world</h1>
       <h2>Hello world</h2>
       <h3>Hello world</h3>
@@ -44,6 +46,7 @@
   </div>
   
   <div class="vlc-kitchensink-sample">
+    <!-- Code problem: some options scoped to vl, some to vlcs -->
     <span class="vl-pill">Optie 1</span>
     <span class="vlc-pill">Optie 1</span>
     <span class="vlc-pill vlc-pill--success">Optie 1</span>
