@@ -10,8 +10,18 @@
   width: 23rem;
   min-width: 23rem;
   max-width: 90vw;
-  max-height: 400px;
   z-index: 11000;
+
+  &.ember-attacher-tooltip {
+    background-color: $tooltip-dark-color;
+    min-width: unset;
+    width: unset;
+
+    & > div[x-arrow] {
+      background-color: $tooltip-dark-color;
+      border-color: $tooltip-dark-color;
+    }
+  }
 
   @include respond-to(small) {
     max-height: 65vh;
@@ -32,8 +42,6 @@
     position: absolute;
     right: 12px;
     top: -10px;
-    border: 12px solid transparent;
-    border-bottom-color: $page-bg;
     border-top-width: 0;
   }
 

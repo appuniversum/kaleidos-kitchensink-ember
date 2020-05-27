@@ -19,11 +19,13 @@
   },
   "devDependencies": {
     "@ember/optional-features": "^1.0.0",
+    "autoprefixer": "^9.8.0",
     "babel-eslint": "^10.0.3",
     "broccoli-asset-rev": "^3.0.0",
     "ember-auto-import": "^1.5.2",
     "ember-cli": "~3.14.0",
     "ember-cli-app-version": "^3.2.0",
+    "ember-cli-autoprefixer": "^1.0.0",
     "ember-cli-babel": "^7.11.1",
     "ember-cli-dependency-checker": "^3.1.0",
     "ember-cli-eslint": "^5.1.0",
@@ -44,6 +46,7 @@
     "ember-welcome-page": "^4.0.0",
     "eslint-plugin-ember": "^7.1.0",
     "eslint-plugin-node": "^10.0.0",
+    "icon-font-generator": "^2.1.10",
     "loader.js": "^4.7.0",
     "qunit-dom": "^0.9.0",
     "sass": "^1.26.3"
@@ -52,6 +55,7 @@
     "node": "8.* || >= 10.*"
   },
   "dependencies": {
+    "@glimmer/component": "^1.0.0",
     "@lblod/ember-vo-webuniversum": "^0.22.7",
     "@lblod/ember-vo-webuniversum-data-table": "^0.2.16",
     "ember-power-select": "^3.0.6"

@@ -4,8 +4,13 @@ const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 module.exports = function(defaults) {
   let app = new EmberApp(defaults, {
+    autoprefixer: {
+      enabled: true,
+      cascade: true
+    },
     sassOptions: {
-      extension: 'scss'
+      extension: 'scss',
+      sourceMap: false
     }
   });
 

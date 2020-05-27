@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "kaleidos-icons";
+    src: url("/fonts/kaleidos-icons.eot?a109b6b1bba5e56243e8908a272f1707?#iefix") format("embedded-opentype"),
+url("/fonts/kaleidos-icons.woff2?a109b6b1bba5e56243e8908a272f1707") format("woff2"),
+url("/fonts/kaleidos-icons.woff?a109b6b1bba5e56243e8908a272f1707") format("woff"),
+url("/fonts/kaleidos-icons.ttf?a109b6b1bba5e56243e8908a272f1707") format("truetype"),
+url("/fonts/kaleidos-icons.svg?a109b6b1bba5e56243e8908a272f1707#kaleidos-icons") format("svg");
+}
+
+i[class^="ki-"]:before, i[class*=" ki-"]:before {
+    font-family: kaleidos-icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ki-cross:before {
+    content: "\f101";
+}
+.ki-hierarchical-back:before {
+    content: "\f102";
+}
+.ki-info-circle:before {
+    content: "\f103";
+}
+.ki-nav-down:before {
+    content: "\f104";
+}
+.ki-nav-left:before {
+    content: "\f105";
+}
+.ki-nav-right:before {
+    content: "\f106";
+}
+.ki-nav-up:before {
+    content: "\f107";
+}
+.ki-pencil:before {
+    content: "\f108";
+}
+.ki-question-mark:before {
+    content: "\f109";
+}
+.ki-redo:before {
+    content: "\f10a";
+}
+.ki-search:before {
+    content: "\f10b";
+}
+.ki-sitemap:before {
+    content: "\f10c";
+}
+.ki-user:before {
+    content: "\f10d";
+}
