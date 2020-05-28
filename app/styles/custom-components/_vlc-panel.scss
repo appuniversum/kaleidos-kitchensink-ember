@@ -1,3 +1,7 @@
+/* ==========================================================================
+  Panel
+   ========================================================================== */
+
 .vlc-panel {
   background: #FFF;
   border: .1rem solid #C6CDD3;
@@ -14,7 +18,7 @@
 .vlc-panel__body {
   padding: 2rem;
 
-  +.vlc-panel__body {
+  + .vlc-panel__body {
     border-top: .1rem solid #C6CDD3;
   }
 }
