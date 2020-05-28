@@ -7,12 +7,10 @@
 /* Variables
    ========================================================================== */
 
-$c-toolbar-item-spacing: 0.8rem !default;
-$c-toolbar-main-border-color: $ghost;
-$c-toolbar-size-regular: 6.5rem;
-$c-toolbar-size-medium: 5rem;
-$c-toolbar-z: 21;
-$c-toolbar-middle-z: 20;
+$c-toolbar-item-spacing: 1rem !default;
+$c-toolbar-main-border-color: $ghost !default;
+$c-toolbar-size-regular: 6.5rem !default;
+$c-toolbar-z: 21 !default;
 
 /* Component
   ========================================================================== */
@@ -26,16 +24,8 @@ $c-toolbar-middle-z: 20;
   height: $c-toolbar-size-regular;
 }
 
-.vlc-toolbar--medium {
-  height: $c-toolbar-size-medium;
-}
-
-.vlc-toolbar--panel {
-  height: 5.5rem;
-}
-
 .vlc-toolbar--spaced {
-  padding: 0 2.4rem;
+  padding: 0 2rem;
 }
 
 .vlc-toolbar--auto {
@@ -134,4 +124,11 @@ $c-toolbar-middle-z: 20;
   max-height: 4.3rem;
   z-index: 3200;
   width: calc(100% - 37rem);
+}
+
+/* Toolbars in panels
+   ========================================================================== */
+
+.vlc-toolbar--panel {
+  height: 5.5rem;
 }
