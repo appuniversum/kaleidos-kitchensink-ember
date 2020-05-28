@@ -30,6 +30,10 @@ $c-toolbar-middle-z: 20;
   height: $c-toolbar-size-medium;
 }
 
+.vlc-toolbar--panel {
+  height: 5.5rem;
+}
+
 .vlc-toolbar--spaced {
   padding: 0 2.4rem;
 }

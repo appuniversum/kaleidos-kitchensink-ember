@@ -34,7 +34,7 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
   </div>
-  
+
   <div class="vlc-kitchensink-sample">
     <!-- Code problem: scoped to vl -->
     <!-- Code problem: why not default to --narrow? -->
@@ -44,7 +44,7 @@
     <button class="vl-button vl-button--tertiary vl-button--narrow">Button label</button>
 
   </div>
-  
+
   <div class="vlc-kitchensink-sample">
     <!-- Code problem: some options scoped to vl, some to vlcs -->
     <span class="vl-pill">Optie 1</span>
@@ -53,19 +53,140 @@
     <span class="vlc-pill vlc-pill--warning">Optie 1</span>
     <span class="vlc-pill vlc-pill--error">Optie 1</span>
   </div>
-  
+
   {{!-- Panel component --}}
-  <div class="vlc-kitchensink-sample">
+  <div class="vlc-kitchensink-sample vl-typography">
+    <h4>Panel body</h4>
+    <div class="vlc-panel">
+      <div class="vlc-panel__body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus massa leo, consequat at tortor a, pretium efficitur diam. Praesent mollis euismod elit, quis consequat nulla lacinia a. Nulla facilisi. Vestibulum volutpat et urna in auctor. Pellentesque pulvinar volutpat quam at egestas. Maecenas mattis velit lacus, in gravida elit bibendum a. </p>
+      </div>
+    </div>
+
+    <h4>Panel with header</h4>
     <div class="vlc-panel">
       <div class="vlc-panel__header">
-        <button>
-          <i class="ki ki-pencil"></i>
-          Bewerken
-        </button>
+        <h4 class="vlc-panel__title">Panel header</h4>
       </div>
       <div class="vlc-panel__body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus massa leo, consequat at tortor a, pretium efficitur diam. Praesent mollis euismod elit, quis consequat nulla lacinia a. Nulla facilisi. Vestibulum volutpat et urna in auctor. Pellentesque pulvinar volutpat quam at egestas. Maecenas mattis velit lacus, in gravida elit bibendum a. </p>
       </div>
-      
+    </div>
+
+    <h4>Panel with header and action</h4>
+    <div class="vlc-panel">
+      <div class="vlc-panel__header">
+        <div class="vlc-toolbar vlc-toolbar--panel">
+          <div class="vlc-toolbar__left">
+            <h4 class="vlc-panel__title">Panel header</h4>
+          </div>
+          <div class="vlc-toolbar__right">
+            <button class="vl-button vl-button--tertiary vl-button--narrow">
+              <i class="vl-button__icon vl-button__icon--before ki-pencil"></i>
+              Button label
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="vlc-panel__body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus massa leo, consequat at tortor a, pretium efficitur diam. Praesent mollis euismod elit, quis consequat nulla lacinia a. Nulla facilisi. Vestibulum volutpat et urna in auctor. Pellentesque pulvinar volutpat quam at egestas. Maecenas mattis velit lacus, in gravida elit bibendum a. </p>
+      </div>
+    </div>
+
+    <h4>Panel with header and 2 actions</h4>
+    <div class="vlc-panel">
+      <div class="vlc-panel__header">
+        <div class="vlc-toolbar vlc-toolbar--panel">
+          <div class="vlc-toolbar__left">
+            <h4 class="vlc-panel__title">Panel header</h4>
+          </div>
+          <div class="vlc-toolbar__right">
+            <div class="vlc-button-toolbar">
+              <button class="vl-button vl-button--tertiary vl-button--narrow">
+                <i class="vl-button__icon vl-button__icon--before ki-pencil"></i>
+                Button label
+              </button>
+
+              <button class="vl-button vl-button--tertiary vl-button--icon">
+                <i class="vl-button__icon ki-redo"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="vlc-panel__body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus massa leo, consequat at tortor a, pretium efficitur diam. Praesent mollis euismod elit, quis consequat nulla lacinia a. Nulla facilisi. Vestibulum volutpat et urna in auctor. Pellentesque pulvinar volutpat quam at egestas. Maecenas mattis velit lacus, in gravida elit bibendum a. </p>
+      </div>
+    </div>
+
+    <h4>Panel with header and checkbox</h4>
+    <div class="vlc-panel">
+      <div class="vlc-panel__header">
+        <div class="vlc-toolbar vlc-toolbar--panel">
+          <div class="vlc-toolbar__left">
+            <h4 class="vlc-panel__title">Panel header</h4>
+          </div>
+          <div class="vlc-toolbar__right">
+            <label class="vl-checkbox" for="checkbox-1">
+              <input class="vl-checkbox__toggle" type="checkbox" id="checkbox-1" name="checkbox-1" value="1" />
+              <div class="vl-checkbox__label">
+                <i class="vl-checkbox__box" aria-hidden="true"></i>
+                Toon opties
+              </div>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="vlc-panel__body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus massa leo, consequat at tortor a, pretium efficitur diam. Praesent mollis euismod elit, quis consequat nulla lacinia a. Nulla facilisi. Vestibulum volutpat et urna in auctor. Pellentesque pulvinar volutpat quam at egestas. Maecenas mattis velit lacus, in gravida elit bibendum a. </p>
+      </div>
+    </div>
+
+    <h4>Panel with double body</h4>
+    <div class="vlc-panel">
+      <div class="vlc-panel__header">
+        <h4 class="vlc-panel__title">Panel header</h4>
+      </div>
+      <div class="vlc-panel__body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus massa leo, consequat at tortor a, pretium efficitur diam. Praesent mollis euismod elit, quis consequat nulla lacinia a. Nulla facilisi. Vestibulum volutpat et urna in auctor. Pellentesque pulvinar volutpat quam at egestas. Maecenas mattis velit lacus, in gravida elit bibendum a. </p>
+      </div>
+      <div class="vlc-panel__body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus massa leo, consequat at tortor a, pretium efficitur diam. Praesent mollis euismod elit, quis consequat nulla lacinia a. Nulla facilisi. Vestibulum volutpat et urna in auctor. Pellentesque pulvinar volutpat quam at egestas. Maecenas mattis velit lacus, in gravida elit bibendum a. </p>
+      </div>
+    </div>
+
+    <h4>Panel with footer</h4>
+    <div class="vlc-panel">
+      <div class="vlc-panel__header">
+        <h4 class="vlc-panel__title">Panel header</h4>
+      </div>
+      <div class="vlc-panel__body">
+        <div class="vlc-input-field-block">
+          <label class="vl-form__label" for="textarea-2">Label</label>
+          <textarea class="vl-textarea vl-textarea--block" id="textarea-2" name="textarea-2" value="" cols="40" rows="4"></textarea>
+        </div>
+        <div class="vlc-input-field-block">
+          <label class="vl-form__label" for="textarea-2">Label</label>
+          <textarea class="vl-textarea vl-textarea--block" id="textarea-2" name="textarea-2" value="" cols="40" rows="4"></textarea>
+        </div>
+      </div>
+
+      <div class="vlc-panel__footer">
+        <div class="vlc-toolbar vlc-toolbar--panel">
+          <div class="vlc-toolbar__left"></div>
+          <div class="vlc-toolbar__right">
+            <div class="vlc-button-toolbar">
+              <button class="vl-button vl-button--link vl-button--narrow">
+                Annuleren
+              </button>
+
+              <button class="vl-button vl-button--primary vl-button--narrow">
+                Opslaan
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 

@@ -1,0 +1,32 @@
+.vlc-panel {
+  background: #FFF;
+  border: .1rem solid #C6CDD3;
+}
+
+.vlc-panel__header {
+  padding: 0 2rem;
+  height: 5.5rem;
+  border-bottom: .1rem solid #C6CDD3;
+  display: flex;
+  align-items: center;
+}
+
+.vlc-panel__body {
+  padding: 2rem;
+
+  +.vlc-panel__body {
+    border-top: .1rem solid #C6CDD3;
+  }
+}
+
+.vlc-panel__footer {
+  padding: 0 2rem;
+  height: 5.5rem;
+  border-top: .1rem solid #C6CDD3;
+  display: flex;
+  align-items: center;
+}
+
+.vlc-panel .vlc-panel__header .vlc-panel__title {
+  margin: 0;
+}
