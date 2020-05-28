@@ -1,10 +1,10 @@
 @font-face {
     font-family: "kaleidos-icons";
-    src: url("/fonts/kaleidos-icons.eot?a109b6b1bba5e56243e8908a272f1707?#iefix") format("embedded-opentype"),
-url("/fonts/kaleidos-icons.woff2?a109b6b1bba5e56243e8908a272f1707") format("woff2"),
-url("/fonts/kaleidos-icons.woff?a109b6b1bba5e56243e8908a272f1707") format("woff"),
-url("/fonts/kaleidos-icons.ttf?a109b6b1bba5e56243e8908a272f1707") format("truetype"),
-url("/fonts/kaleidos-icons.svg?a109b6b1bba5e56243e8908a272f1707#kaleidos-icons") format("svg");
+    src: url("/fonts/kaleidos-icons.eot?4affaf5fbb4b3a1c37cfc9f3ccaea3fe?#iefix") format("embedded-opentype"),
+url("/fonts/kaleidos-icons.woff2?4affaf5fbb4b3a1c37cfc9f3ccaea3fe") format("woff2"),
+url("/fonts/kaleidos-icons.woff?4affaf5fbb4b3a1c37cfc9f3ccaea3fe") format("woff"),
+url("/fonts/kaleidos-icons.ttf?4affaf5fbb4b3a1c37cfc9f3ccaea3fe") format("truetype"),
+url("/fonts/kaleidos-icons.svg?4affaf5fbb4b3a1c37cfc9f3ccaea3fe#kaleidos-icons") format("svg");
 }
 
 i[class^="ki-"]:before, i[class*=" ki-"]:before {
@@ -18,42 +18,138 @@ i[class^="ki-"]:before, i[class*=" ki-"]:before {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.ki-cross:before {
+.ki-add:before {
     content: "\f101";
 }
-.ki-hierarchical-back:before {
+.ki-alert-triangle:before {
     content: "\f102";
 }
-.ki-info-circle:before {
+.ki-arrow-down:before {
     content: "\f103";
 }
-.ki-nav-down:before {
+.ki-arrow-left:before {
     content: "\f104";
 }
-.ki-nav-left:before {
+.ki-arrow-right:before {
     content: "\f105";
 }
-.ki-nav-right:before {
+.ki-arrow-up:before {
     content: "\f106";
 }
-.ki-nav-up:before {
+.ki-back:before {
     content: "\f107";
 }
-.ki-pencil:before {
+.ki-calendar-plus:before {
     content: "\f108";
 }
-.ki-question-mark:before {
+.ki-calendar:before {
     content: "\f109";
 }
-.ki-redo:before {
+.ki-check:before {
     content: "\f10a";
 }
-.ki-search:before {
+.ki-chevron-down:before {
     content: "\f10b";
 }
-.ki-sitemap:before {
+.ki-chevron-left:before {
     content: "\f10c";
 }
-.ki-user:before {
+.ki-chevron-right:before {
     content: "\f10d";
+}
+.ki-chevron-up:before {
+    content: "\f10e";
+}
+.ki-circle-check:before {
+    content: "\f10f";
+}
+.ki-circle-info:before {
+    content: "\f110";
+}
+.ki-circle-question:before {
+    content: "\f111";
+}
+.ki-clock:before {
+    content: "\f112";
+}
+.ki-close:before {
+    content: "\f113";
+}
+.ki-comment:before {
+    content: "\f114";
+}
+.ki-delete:before {
+    content: "\f115";
+}
+.ki-document-updated:before {
+    content: "\f116";
+}
+.ki-document:before {
+    content: "\f117";
+}
+.ki-download:before {
+    content: "\f118";
+}
+.ki-drag-handle-18:before {
+    content: "\f119";
+}
+.ki-drag-handle-2:before {
+    content: "\f11a";
+}
+.ki-drag-handle:before {
+    content: "\f11b";
+}
+.ki-edit:before {
+    content: "\f11c";
+}
+.ki-external-link:before {
+    content: "\f11d";
+}
+.ki-file:before {
+    content: "\f11e";
+}
+.ki-filter:before {
+    content: "\f11f";
+}
+.ki-import:before {
+    content: "\f120";
+}
+.ki-lock-closed:before {
+    content: "\f121";
+}
+.ki-lock-open:before {
+    content: "\f122";
+}
+.ki-more:before {
+    content: "\f123";
+}
+.ki-not-visible:before {
+    content: "\f124";
+}
+.ki-paperclip:before {
+    content: "\f125";
+}
+.ki-redo:before {
+    content: "\f126";
+}
+.ki-remove:before {
+    content: "\f127";
+}
+.ki-search:before {
+    content: "\f128";
+}
+.ki-settings:before {
+    content: "\f129";
+}
+.ki-sitemap:before {
+    content: "\f12a";
+}
+.ki-upload:before {
+    content: "\f12b";
+}
+.ki-user:before {
+    content: "\f12c";
+}
+.ki-visible:before {
+    content: "\f12d";
 }
